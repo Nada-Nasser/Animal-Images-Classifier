@@ -4,10 +4,11 @@ Python API can classify Base64 encoded images to determine if the animal in the 
 
 ## :star: Main Features:
 
-* The API returns True if the animal in the image is not wild and returns false if the animal in the image is wild. 
+* The API returns ```True``` if the animal in the image is not wild and returns ```False``` if the animal in the image is wild. 
+* The API returns ```False``` if there is no animal in the image
 * Using the generated public URL, a POST request can be sent that has a JSON body include the encoded image.
 * The API using an image recognition model, get the animal name from the image.
-* Using NLTK and the name recognized from the image, check if the animal in the image is a wild animal or not. 
+* Using NLTK and the name recognized from the image, check if the animal in the image is wild or not. 
 
 ## :computer: Test Cases
 
