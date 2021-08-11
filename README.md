@@ -9,7 +9,7 @@ Python API can classify Base64 encoded images to determine if the animal in the 
 * The API using an image recognition model, get the animal name from the image.
 * Using NLTK and the name recognized from the image, check if the animal in the image is a wild animal or not. 
 
-## :camera: Test Cases
+## :computer: Test Cases
 
 * using the generated public URL, ex: "https://b45dbd2667f8.ngrok.io"
 * Request body in json format
@@ -26,4 +26,8 @@ Python API can classify Base64 encoded images to determine if the animal in the 
 |<p align='center'><img src="animal_images/cat2.jpg" width="80"></p>|<p align='center'> [here](https://github.com/Nada-Nasser/images-classification/blob/main/encoded_images/cat.txt)</p>| https://b45dbd2667f8.ngrok.io/classifyimage/ | <p align='center'>```True```</p>|
 
 
+## ⚙️ Built With
 
+* [Python3](https://www.python.org/downloads/) - to build the ML models and the API
+* [Google Colaboratory](https://colab.research.google.com/) 
+* [Postman](https://www.postman.com/) - to test the API
