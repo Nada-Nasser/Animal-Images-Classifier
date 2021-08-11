@@ -1,6 +1,6 @@
 # Animal-Images-Classifier
 
-Python API can classify an Base64 encoded image to determine if the animal in the image is wild animal or not.
+Python API can classify Base64 encoded image to determine if the animal in the image is wild animal or not.
 
 ## :star: Main Features:
 
